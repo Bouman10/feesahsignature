@@ -30,7 +30,7 @@ export default function Hero() {
           </Link>
 
           <a
-            href="https://wa.me/2349050943481"
+            href="https://wa.me/2349050943481?text=Hello%20Feesah%20Signature,%20I%20would%20like%20to%20place%20an%20order."
             className="px-5 py-3 border border-gray-300 text-sm sm:text-base"
           >
             Order via WhatsApp

@@ -4,9 +4,9 @@ import Footer from "./components/Footer";
 
 export const metadata = {
   title:
-    "Feesah Signature – Ankara Fabrics, Native Materials & Caps in Lagos",
+    "Feesah Signature – Fabrics, Ankara, Native Materials & Caps in Lagos",
   description:
-    "Browse premium Ankara fabrics, native materials and caps in Lagos. Order easily via WhatsApp with nationwide delivery.",
+    "Browse premium fabrics, Ankara, native materials and caps in Lagos. Order easily via WhatsApp with nationwide delivery.",
 }
 
 export default function RootLayout({
