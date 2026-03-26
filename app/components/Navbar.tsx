@@ -1,28 +1,47 @@
-import Link from "next/link";
+"use client"
+
+import Link from "next/link"
+import { usePathname } from "next/navigation"
 
 export default function Navbar() {
+  const pathname = usePathname()
+
+  const navLinks = [
+    { href: "/", label: "Home" },
+    { href: "/catalog", label: "Shop Fabrics" },
+    { href: "/about", label: "About" },
+  ]
+
   return (
-    <nav className="flex justify-between items-center px-4 sm:px-10 py-5 border-b border-brand/30">
+    <nav className="flex justify-between items-center px-6 sm:px-10 py-6 border-b border-brand/30">
       
       {/* Logo */}
-      <Link href="/" className="text-lg sm:text-xl font-semibold text-brand-light">
+      <span className="text-xl font-semibold text-brand">
         FeesahSignature
-      </Link>
+      </span>
 
       {/* Right Nav */}
-      <div className="flex gap-6 sm:gap-10 text-sm">
-        <Link href="/" className="text-gray-700 hover:text-brand transition">
-          Home
-        </Link>
+      <div className="flex gap-6 sm:gap-8 text-sm">
+        {navLinks.map((link) => {
+          const isActive = pathname === link.href
 
-        <Link href="/catalog" className="text-gray-700 hover:text-brand transition">
-          Shop Fabrics
-        </Link>
-
-        <Link href="/about" className="text-gray-700 hover:text-brand transition">
-          About
-        </Link>
+          return (
+            <Link
+              key={link.href}
+              href={link.href}
+              className={`
+                transition-colors
+                ${isActive 
+                  ? "text-brand font-medium" 
+                  : "text-gray-600 hover:text-brand-light"}
+              `}
+            >
+              {link.label}
+            </Link>
+          )
+        })}
       </div>
+
     </nav>
-  );
+  )
 }

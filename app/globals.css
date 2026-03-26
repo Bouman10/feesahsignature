@@ -1,25 +1,49 @@
 @import "tailwindcss";
 
+/* Brand tokens */
 :root {
   --brand: #6B21A8;
   --brand-light: #A855F7;
   --brand-dark: #4C1D95;
+  --foreground: #171717;
+  --background: #ffffff;
 }
 
+/* Base styles */
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Brand utility classes */
 @layer utilities {
   .text-brand {
-    color: vaar(--brand);
+    color: var(--brand);
   }
 
   .text-brand-light {
     color: var(--brand-light);
   }
 
+  .text-brand-dark {
+    color: var(--brand-dark);
+  }
+
   .bg-brand {
     background-color: var(--brand);
   }
 
+  .bg-brand-light {
+    background-color: var(--brand-light);
+  }
+
   .border-brand {
     border-color: var(--brand);
+  }
+
+  /* Needed for navbar divider opacity */
+  .border-brand\/30 {
+    border-color: rgb(107 33 168 / 0.3);
   }
 }
