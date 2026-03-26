@@ -41,8 +41,8 @@ export default function AboutPage() {
         <h2 className="text-xl font-medium text-gray-900">What We Offer</h2>
 
         <ul className="space-y-2">
-          <li>• Premium Ankara fabrics</li>
-          <li>• Quality men’s fabrics</li>
+          <li>• Premium Ankara</li>
+          <li>• Quality Fabrics</li>
           <li>• Hula caps and accessories</li>
           <li>• Carefully sourced materials</li>
         </ul>
@@ -58,7 +58,7 @@ export default function AboutPage() {
 
         <ol className="space-y-2">
           <li>1. Browse our catalog</li>
-          <li>2. Send your order via WhatsApp</li>
+          <li>2. Send your order via WhatsApp or Instagram</li>
           <li>3. Confirm availability and delivery</li>
           <li>4. Receive your fabrics anywhere in Nigeria</li>
         </ol>
@@ -69,7 +69,7 @@ export default function AboutPage() {
         <h2 className="text-xl font-medium text-gray-900">Location & Delivery</h2>
 
         <p>
-          Based in Lagos, Nigeria.
+          Based in Fadeyi, Lagos, Nigeria.
         </p>
 
         <p>
