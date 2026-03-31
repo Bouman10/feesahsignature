@@ -16,7 +16,7 @@ export default function Hero() {
 
         {/* SUBTEXT */}
         <p className="mt-3 text-sm sm:text-base text-gray-500">
-          Fabrics • Ankara • Hula Caps
+          Male fabrics • Ankara • Hula Caps
         </p>
 
         {/* CTA */}

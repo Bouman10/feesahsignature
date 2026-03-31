@@ -19,7 +19,7 @@ export default function AboutPage() {
         <h2 className="text-xl font-medium text-gray-900">Our Story</h2>
 
         <p>
-          Feesah Signature was built from a simple idea — finding premium fabrics
+          Feesah Signature was built from a simple idea; finding premium fabrics
           should feel personal, easy and trustworthy.
         </p>
 
@@ -42,7 +42,7 @@ export default function AboutPage() {
 
         <ul className="space-y-2">
           <li>• Premium Ankara</li>
-          <li>• Quality Fabrics</li>
+          <li>• Quality Men's Fabrics</li>
           <li>• Hula caps and accessories</li>
           <li>• Carefully sourced materials</li>
         </ul>

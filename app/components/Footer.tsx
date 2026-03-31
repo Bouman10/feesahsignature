@@ -7,16 +7,16 @@ export default function Footer() {
         {/* BRAND */}
         <div>
           <h3 className="text-brand font-semibold text-lg">
-            FeesahSignature
+            Feesah signature
           </h3>
           <p className="text-sm text-gray-500 mt-1">
-            Premium fabrics and caps, delivered nationwide.
+            Premium fabrics and caps, nationwide delivery.
           </p>
         </div>
 
         {/* LINKS */}
         <div className="flex gap-6 text-sm text-gray-600">
-          <a href="https://www.instagram.com/feesahsignature?igsh=MTA2Y3JscGh2aHNqOQ==" className="hover:text-brand">Instagram</a>
+          <a href="https://www.instagram.com/feesahsignature?igsh=MTA2Y3JscGh2aHNqOQ==git commit -m" className="hover:text-brand">Instagram</a>
           <a href="https://wa.me/2349050943481" className="hover:text-brand">
             WhatsApp
           </a>
